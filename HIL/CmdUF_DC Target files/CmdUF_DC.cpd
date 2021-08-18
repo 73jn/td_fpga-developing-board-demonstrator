@@ -684,7 +684,7 @@
             <type>1phase</type>
             <address>[0]</address>
             <unit>V</unit>
-            <init_settings>['Constant', 350.0]</init_settings>
+            <init_settings>['Constant', 100.0]</init_settings>
         </cell>
     </sources>
     <machines>

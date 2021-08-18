@@ -2,7 +2,7 @@ version = 4.2
 
 //
 // Saved by sw version: 2021.2
-// Save timestamp: 29-Jul-2021 @ 06:16:11 PM
+// Save timestamp: 18-Aug-2021 @ 10:29:16 PM
 //
 
 model "CmdUF_DC" {
@@ -86,7 +86,7 @@ model "CmdUF_DC" {
             frequency = "150"
         }
         [
-            position = 6792, 7072
+            position = 6688, 7072
             size = 64, 32
         ]
 
@@ -94,7 +94,7 @@ model "CmdUF_DC" {
             frequency = "150"
         }
         [
-            position = 6792, 7168
+            position = 6688, 7168
             size = 64, 32
         ]
 
@@ -102,7 +102,7 @@ model "CmdUF_DC" {
             frequency = "150"
         }
         [
-            position = 6792, 7264
+            position = 6688, 7264
             size = 64, 32
         ]
 
@@ -110,25 +110,25 @@ model "CmdUF_DC" {
             resistance = "0.01"
         }
         [
-            position = 6688, 7072
+            position = 6584, 7072
         ]
 
         component pas_resistor R3 {
             resistance = "0.01"
         }
         [
-            position = 6688, 7168
+            position = 6584, 7168
         ]
 
         component pas_resistor R4 {
             resistance = "0.01"
         }
         [
-            position = 6688, 7264
+            position = 6584, 7264
         ]
 
         component src_voltage Vs1 {
-            init_const_value = "350"
+            init_const_value = "100"
         }
         [
             position = 5784, 7168
@@ -157,12 +157,14 @@ model "CmdUF_DC" {
         ]
 
         component "core/Brushless DC Machine" "Brushless DC Machine1" {
-            Vpk_over_krpm = "1.2"
+            Jm = "0.1e-3"
+            Ls = "244e-3"
+            Vpk_over_krpm = "5"
             mech_angle_out = "True"
             pms = "3"
         }
         [
-            position = 6976, 7168
+            position = 6872, 7168
             size = 160, 160
         ]
 
@@ -170,14 +172,14 @@ model "CmdUF_DC" {
             pms = "3"
         }
         [
-            position = 7200, 7064
+            position = 7024, 7064
             size = 94, 96
         ]
 
         component gen_terminator Termination2 {
         }
         [
-            position = 7312, 7064
+            position = 7120, 7064
             hide_name = True
         ]
 

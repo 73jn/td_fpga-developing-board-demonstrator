@@ -47,7 +47,7 @@
                 <ext_model_load_type>0</ext_model_load_type>
                 <site>0</site>
                 <init_values>[]</init_values>
-                <constant_torque>9.6</constant_torque>
+                <constant_torque>0.3</constant_torque>
                 <linear_torque>0.0</linear_torque>
                 <square_torque>0.0</square_torque>
                 <constant_torque_type>0</constant_torque_type>
@@ -66,7 +66,7 @@
             <analog_channel>
                 <number>1</number>
                 <device>0</device>
-                <scale>-230.0</scale>
+                <scale>-220.0</scale>
                 <offset>-10.0</offset>
                 <locked>False</locked>
                 <ao_limiting_enabled>False</ao_limiting_enabled>
