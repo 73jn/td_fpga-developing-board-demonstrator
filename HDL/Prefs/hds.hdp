@@ -1,0 +1,84 @@
+[Concat]
+Board = $HDS_PROJECT_DIR/../Board/concat
+Poetic_test = $HDS_PROJECT_DIR/../Poetic_test/concat
+[ModelSim]
+Board = $SCRATCH_DIR/Board
+Common = $SCRATCH_DIR/Common
+Common_test = $SCRATCH_DIR/Common_test
+Cordic = $SCRATCH_DIR/Cordic
+Cordic_test = $SCRATCH_DIR/Cordic_test
+Filter = $SCRATCH_DIR/Filter
+Filter_test = $SCRATCH_DIR/Filter_test
+Gates = $SCRATCH_DIR/Gates
+Memory = $SCRATCH_DIR/Memory
+Memory_test = $SCRATCH_DIR/Memory_test
+Modulation = $SCRATCH_DIR/Modulation
+Modulation_test = $SCRATCH_DIR/Modulation_test
+Poetic = $SCRATCH_DIR/Poetic
+Poetic_test = $SCRATCH_DIR/Poetic_test
+RS232 = $SCRATCH_DIR/RS232
+RS232_test = $SCRATCH_DIR/RS232_test
+SPI = $SCRATCH_DIR/SPI
+SPI_test = $SCRATCH_DIR/SPI_test
+WaveformGenerator = $SCRATCH_DIR/WaveformGenerator
+WaveformGenerator_test = $SCRATCH_DIR/WaveformGenerator_test
+Messy = $SCRATCH_DIR/Messy
+Messy_test = $SCRATCH_DIR/Messy_test
+[hdl]
+Board = $HDS_PROJECT_DIR/../Board/hdl
+Common = $HDS_PROJECT_DIR/../Libs/Common/hdl
+Common_test = $HDS_PROJECT_DIR/../Libs/Common_test/hdl
+Cordic = $HDS_PROJECT_DIR/../Libs/Cordic/hdl
+Cordic_test = $HDS_PROJECT_DIR/../Libs/Cordic_test/hdl
+Filter = $HDS_PROJECT_DIR/../Libs/Filter/hdl
+Filter_test = $HDS_PROJECT_DIR/../Libs/Filter_test/hdl
+Gates = $HDS_PROJECT_DIR/../Libs/Gates/hdl
+ieee = $HDS_HOME/hdl_libs/ieee/hdl
+Memory = $HDS_PROJECT_DIR/../Libs/Memory/hdl
+Memory_test = $HDS_PROJECT_DIR/../Libs/Memory_test/hdl
+Modulation = $HDS_PROJECT_DIR/../Libs/Modulation/hdl
+Modulation_test = $HDS_PROJECT_DIR/../Libs/Modulation_test/hdl
+Poetic = $HDS_PROJECT_DIR/../Poetic/hdl
+Poetic_test = $HDS_PROJECT_DIR/../Poetic_test/hdl
+RS232 = $HDS_PROJECT_DIR/../Libs/RS232/hdl
+RS232_test = $HDS_PROJECT_DIR/../Libs/RS232_test/hdl
+SPI = $HDS_PROJECT_DIR/../Libs/SPI/hdl
+SPI_test = $HDS_PROJECT_DIR/../Libs/SPI_test/hdl
+std = $HDS_HOME/hdl_libs/std/hdl
+WaveformGenerator = $HDS_PROJECT_DIR/../Libs/WaveformGenerator/hdl
+WaveformGenerator_test = $HDS_PROJECT_DIR/../Libs/WaveformGenerator_test/hdl
+Messy = $HDS_PROJECT_DIR/../Messy/hdl
+Messy_test = $HDS_PROJECT_DIR/../Messy_test/hdl
+[hds]
+Board = $HDS_PROJECT_DIR/../Board/hds
+Common = $HDS_PROJECT_DIR/../Libs/Common/hds
+Common_test = $HDS_PROJECT_DIR/../Libs/Common_test/hds
+Cordic = $HDS_PROJECT_DIR/../Libs/Cordic/hds
+Cordic_test = $HDS_PROJECT_DIR/../Libs/Cordic_test/hds
+Filter = $HDS_PROJECT_DIR/../Libs/Filter/hds
+Filter_test = $HDS_PROJECT_DIR/../Libs/Filter_test/hds
+Gates = $HDS_PROJECT_DIR/../Libs/Gates/hds
+ieee = $HDS_HOME/hdl_libs/ieee/hds
+Memory = $HDS_PROJECT_DIR/../Libs/Memory/hds
+Memory_test = $HDS_PROJECT_DIR/../Libs/Memory_test/hds
+Modulation = $HDS_PROJECT_DIR/../Libs/Modulation/hds
+Modulation_test = $HDS_PROJECT_DIR/../Libs/Modulation_test/hds
+Poetic = $HDS_PROJECT_DIR/../Poetic/hds
+Poetic_test = $HDS_PROJECT_DIR/../Poetic_test/hds
+RS232 = $HDS_PROJECT_DIR/../Libs/RS232/hds
+RS232_test = $HDS_PROJECT_DIR/../Libs/RS232_test/hds
+SPI = $HDS_PROJECT_DIR/../Libs/SPI/hds
+SPI_test = $HDS_PROJECT_DIR/../Libs/SPI_test/hds
+std = $HDS_HOME/hdl_libs/std/hds
+WaveformGenerator = $HDS_PROJECT_DIR/../Libs/WaveformGenerator/hds
+WaveformGenerator_test = $HDS_PROJECT_DIR/../Libs/WaveformGenerator_test/hds
+Messy = $HDS_PROJECT_DIR/../Messy/hds
+Messy_test = $HDS_PROJECT_DIR/../Messy_test/hds
+[hds_settings]
+default_library = Board
+[library_files_inclusion]
+[library_type]
+ieee = standard
+std = standard
+[shared]
+others = $HDS_TEAM_HOME/shared.hdp
